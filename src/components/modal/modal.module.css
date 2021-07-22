@@ -1,0 +1,60 @@
+.modalBG {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(144, 143, 143, 0.6);
+  z-index: 50;
+  position: fixed;
+  top: 0;
+}
+.modalCard {
+  position: relative;
+  top: 20%;
+  background-color: white;
+  padding: 2%;
+  margin: auto;
+  display: flex;
+  width: 900px;
+  max-width: 100%;
+  box-sizing: border-box;
+  border-radius: 9px;
+}
+.modalCard img {
+  max-width: 100%;
+}
+.leftSide {
+  width: 70%;
+}
+.rightSide {
+  width: 30%;
+  padding-left: 10px;
+}
+.input,
+button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.closedCard {
+  position: absolute;
+}
+button {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 680px) {
+  .modalCard {
+    display: block;
+  }
+  .leftSide img {
+    width: 100%;
+  }
+  .leftSide {
+    width: 100%;
+  }
+}

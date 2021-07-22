@@ -1,0 +1,11 @@
+.images {
+  width: 1140px;
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.images img {
+  max-width: 100%;
+}
